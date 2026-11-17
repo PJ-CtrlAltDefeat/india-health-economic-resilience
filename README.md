@@ -23,28 +23,6 @@ A policy paper and deck on building a **National Health–Economic Resilience Po
 | ![cost](results/01_annual_cost.png) | ![bcr](results/02_benefit_cost_heatmap.png) |
 | ![relief](results/03_relief_vs_fund.png) | ![doctors](results/04_doctor_path.png) |
 
-## Repository layout
-
-```
-docs/
-  Health-Growth-Dilemma_Policy-Paper.docx   original paper
-  Health-Growth-Dilemma_Deck.pptx           original deck
-  QUANTIFIED_ANNEX.md                       full write-up: fact-check, costing, sensitivities
-src/model.py                                the whole model (one file, no hidden numbers)
-data/
-  assumptions.csv                           every input, with source + confidence tag
-  fact_check.csv                            claim-by-claim check of the original documents
-results/                                    CSVs, summary.json and the four charts
-```
-
-## Run it
-
-```bash
-pip install -r requirements.txt
-python src/model.py        # regenerates everything in results/ and data/assumptions.csv
-```
-
-Change any number in the `param(...)` register at the top of `src/model.py` and all outputs update.
 
 ## Method in brief
 
