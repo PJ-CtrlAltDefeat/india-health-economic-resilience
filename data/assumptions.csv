@@ -1,1 +1,30 @@
-
+parameter,value,unit,source,confidence
+the_fy22,904461.0,Rs crore,"National Health Accounts 2021-22 (MoHFW, Oct 2024): total health expenditure",V
+the_gdp_share_fy22,0.0383,share of GDP,NHA 2021-22: THE = 3.83% of GDP,V
+ghe_gdp_share_fy22,0.0184,share of GDP,NHA 2021-22: government health expenditure = 1.84% of GDP,V
+oop_share_fy22,0.394,share of THE,NHA 2021-22: OOPE = 39.4% of THE (62.6% in 2014-15),V
+eshram_registered_cr,31.38,crore workers,"Ministry of Labour PIB release, 1 Dec 2025 (as of Nov 2025)",V
+eshram_pmjay_linked_cr,15.1006,crore workers,Same release: e-Shram registrants benefiting from PM-JAY (19 Nov 2025),V
+pmjay_oop_reduction,0.21,share,"NHA/PM-JAY summary: OOP expenses of beneficiaries fell 21% (beneficiary households, not national)",V
+alloc_doctors_2022,1046407.0,doctors,"Govt reply to Rajya Sabha (Jul 2022): 13,08,009 registered allopathic doctors x 80% assumed available",V
+covid_gdp_fy21_provisional,-0.073,real GDP growth,"MoSPI provisional estimate, 31 May 2021",V
+covid_gdp_fy21_revised,-0.066,real GDP growth,"NSO first revised estimate, 31 Jan 2022",V
+phfi_poverty_cr,5.5,crore people/yr,PHFI study (Jun 2018): 55 million pushed into poverty by OOP health spending in 2017,V
+digital_total_cr,50000.0,Rs crore,"Paper s.4A / slide 7: Rs 50,000 crore digital health over 5 years",P
+digital_years,5.0,years,Slide 7: five years,P
+fund_total_cr,100000.0,Rs crore,Paper s.4C / slide 7: Rs 1 lakh crore Pandemic Preparedness Fund,P
+fund_years,10.0,years,Funding horizon for the pre-funded reserve (paper says 'pre-funded'; schedule is mine),A
+uhc_target_2028,0.7,share of informal workers,Paper s.4B: 70% of informal workers covered by 2027,P
+uhc_target_2047,1.0,share of informal workers,Paper s.6/7: nationwide / 100% informal workers by 2047,P
+doctor_target_2047,1.5,"doctors per 1,000","Paper s.6: 1.5 per 1,000 by 2047",P
+shock_gdp_loss_pp,9.0,pp of GDP,Paper scenario: 2030 pandemic shrinks GDP 9% (kept as the scenario shock; not a COVID fact),P
+gdp_nominal_growth,0.105,per year,Nominal GDP growth (6.5% real + ~4% deflator). Back-cast check: gives ~Rs 319 lakh cr in FY25,A
+premium_per_person_fy27,500.0,Rs per person per year,Insurance premium per additionally covered informal worker. Replace with state tender data,A
+premium_inflation,0.05,per year,Medical premium inflation,A
+pop_2022_bn,1.41,billion,Approx. India population 2022 (UN WPP medium variant; not re-verified here),A
+pop_2047_bn,1.63,billion,Approx. India population 2047 (UN WPP medium variant; not re-verified here),A
+shock_prob,0.02,per year,Annual probability of a COVID-scale shock (literature-informed placeholder; swept 0.5%-5%),A
+loss_avoided_pp,1.5,pp of GDP,GDP loss avoided per shock thanks to preparedness (swept 0.5-3 pp),A
+discount_nominal,0.09,per year,Nominal discount rate,A
+relief_amount,3000.0,Rs per worker per month,"Illustrative relief transfer during a lockdown (swept 2,000-5,000)",A
+relief_months,3.0,months,Illustrative lockdown relief duration (swept 2-6),A
