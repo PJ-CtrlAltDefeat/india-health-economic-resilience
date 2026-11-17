@@ -1,0 +1,103 @@
+{
+  "gdp_fy22_lakh_cr_derived": 236.15169712793733,
+  "gdp_fy27_lakh_cr_projected": 389.0473497048103,
+  "cumulative_cost_fy27_47_lakh_cr": 3.6634536156246535,
+  "cumulative_by_lever_lakh_cr": {
+    "digital_health": 0.5,
+    "pandemic_fund": 1.0,
+    "uhc_expansion": 2.163453615624654
+  },
+  "fy2027_cost_cr": 21716.35,
+  "fy2027_pct_gdp": 0.055819298130361975,
+  "peak_pct_gdp": 0.055819298130361975,
+  "peak_fy": 2027,
+  "uhc_baseline_coverage_eshram": 0.48121733588272786,
+  "uhc_extra_people_by_fy2028_cr": 6.865399999999998,
+  "uhc_extra_people_by_fy2047_cr": 16.2794,
+  "scenarios": [
+    {
+      "scenario": "low",
+      "premium_fy27": 300,
+      "cumulative_cost_lakh_cr": 2.7980721693747928,
+      "peak_pct_gdp": 0.05405462861000433,
+      "fy2030_cost_cr": 22728.411236710526,
+      "uhc_cumulative_lakh_cr": 1.298072169374792
+    },
+    {
+      "scenario": "base",
+      "premium_fy27": 500,
+      "cumulative_cost_lakh_cr": 3.6634536156246535,
+      "peak_pct_gdp": 0.055819298130361975,
+      "fy2030_cost_cr": 24547.35206118421,
+      "uhc_cumulative_lakh_cr": 2.163453615624654
+    },
+    {
+      "scenario": "high",
+      "premium_fy27": 1000,
+      "cumulative_cost_lakh_cr": 5.826907231249307,
+      "peak_pct_gdp": 0.06329108985812046,
+      "fy2030_cost_cr": 29094.70412236842,
+      "uhc_cumulative_lakh_cr": 4.326907231249308
+    }
+  ],
+  "pv_cost_total_lakh_cr": 1.7415398889954206,
+  "pv_cost_preparedness_lakh_cr": 1.0307308964510722,
+  "bcr_base_preparedness": 2.509662639429622,
+  "bcr_base_total_package": 1.4853445726248655,
+  "breakeven_pp_preparedness": {
+    "0.5%": 2.390759580882806,
+    "1.0%": 1.195379790441403,
+    "2.0%": 0.5976898952207015,
+    "3.0%": 0.3984599301471343,
+    "5.0%": 0.23907595808828058
+  },
+  "breakeven_pp_total": {
+    "0.5%": 4.039466740971049,
+    "1.0%": 2.0197333704855245,
+    "2.0%": 1.0098666852427622,
+    "3.0%": 0.6732444568285081,
+    "5.0%": 0.40394667409710483
+  },
+  "relief_base_lakh_cr": 2.8242,
+  "fund_covers_months_of_3000": 1.0622477161674102,
+  "fund_as_share_of_base_relief": 0.3540825720558034,
+  "oop_fy22_lakh_cr": 3.56357634,
+  "oop_sensitivity": [
+    {
+      "reduction": 0.1,
+      "saving_cr_fy22": 35635.7634,
+      "saving_lakh_cr": 0.35635763400000003,
+      "new_oop_share_of_the": 0.3546,
+      "extra_public_spend_pct_gdp": 0.150902,
+      "ghe_pct_gdp_if_publicly_financed": 1.990902
+    },
+    {
+      "reduction": 0.21,
+      "saving_cr_fy22": 74835.10314,
+      "saving_lakh_cr": 0.7483510314,
+      "new_oop_share_of_the": 0.31126000000000004,
+      "extra_public_spend_pct_gdp": 0.3168942,
+      "ghe_pct_gdp_if_publicly_financed": 2.1568942
+    },
+    {
+      "reduction": 0.4,
+      "saving_cr_fy22": 142543.0536,
+      "saving_lakh_cr": 1.4254305360000001,
+      "new_oop_share_of_the": 0.2364,
+      "extra_public_spend_pct_gdp": 0.603608,
+      "ghe_pct_gdp_if_publicly_financed": 2.443608
+    }
+  ],
+  "doctors": {
+    "density_2022_recomputed": 0.7421326241134751,
+    "density_2022_with_govt_population": 0.8438766129032258,
+    "required_doctors_2047": 2445000.0,
+    "net_adds_total": 1398593.0,
+    "net_adds_per_year": 55943.72,
+    "cagr": 0.03453009514095018
+  },
+  "covid_gdp_actual": {
+    "provisional": -0.073,
+    "revised": -0.066
+  }
+}
